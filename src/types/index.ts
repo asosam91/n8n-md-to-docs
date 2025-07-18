@@ -1,6 +1,7 @@
 export interface MarkdownRequest {
   output: string;
   fileName?: string;
+  folderId?: string;
   webhookUrl?: string;
   executionMode?: string;
 }
